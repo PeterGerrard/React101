@@ -57,3 +57,28 @@ ReactDOM.render(React.createElement(App), domContainer);
 ```
 
 Go back to [http://localhost:1234](http://localhost:1234) and refresh the page.
+
+### Task - Add interactivity
+
+(TODO: describe this task)
+
+In [App.js](./src/App.js) we will add interactivity to our first component:
+
+Add some state to the component by adding the following to the beginning of the App function:
+
+```js
+const [count, setCount] = React.useState(0);
+// count will have the current count for each render, render's will occur when state or properties change
+// setCount gives us a way to modify the count value and cause a re-render
+const increment = () => setCount((c) => c + 1);
+```
+
+Then update the returned value from App to:
+
+```js
+return React.createElement(
+  "button",
+  { onClick: increment },
+  "Interactive, clicks = " + count
+);
+```
