@@ -36,3 +36,9 @@ Do the same to also rename `index.js` to `index.jsx`
 
 In your terminal run: `npm start` in the `exercises/02` folder.
 Open [http://localhost:1234](http://localhost:1234) in your browser
+
+### Task - Update App to have more functionality
+
+Update `App.jsx` to have the following design, with the implicit functionality.
+
+![A counter with decrement, reset and increment buttons](./MultipleInteractivePoints.png)
