@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "serve src -l 1234"
+    "start": "serve src -n -l 1234"
   },
   "author": "",
   "license": "ISC",
