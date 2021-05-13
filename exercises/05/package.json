@@ -1,0 +1,16 @@
+{
+  "name": "exercise05",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "serve src -n -l 1234"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "serve": "^11.3.2"
+  }
+}
