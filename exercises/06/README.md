@@ -1,4 +1,4 @@
-# 06 - Bundling
+# 06 - Bundling and Hot reload
 
 ## Task - Bundling everything into a distribution file
 
@@ -20,17 +20,17 @@ Now that everything is being pulled in we don't need to reference eveything from
 
 ```html
 <body>
-    <div id="root"></div>
-    <script
-      src="https://unpkg.com/react@17/umd/react.development.js"
-      crossorigin
-    ></script>
-    <script
-      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
-      crossorigin
-    ></script>
-    <script src="index.jsx" type="module"></script>
-  </body>
+  <div id="root"></div>
+  <script
+    src="https://unpkg.com/react@17/umd/react.development.js"
+    crossorigin
+  ></script>
+  <script
+    src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+    crossorigin
+  ></script>
+  <script src="index.jsx" type="module"></script>
+</body>
 ```
 
 (Note the change of type of the script to module)
