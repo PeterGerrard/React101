@@ -1,4 +1,4 @@
-# 03 - Styling ans Props
+# 03 - Styling and Props
 
 ## Adding Style to buttons
 

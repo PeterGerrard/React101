@@ -13,7 +13,7 @@ We can now run the app again and see that you can't click the minus when the cou
 It's not the most obvious that the button is disabled so lets configure the style based on the disabled flag:
 
 ```jsx
-return <button style={{ backgroundColor: disabled? "gray" : color }}>
+return <button style={{ backgroundColor: disabled ? "gray" : color }}>
 ```
 
 and then lets change the cursor if we are disabled:
@@ -39,8 +39,8 @@ In `App.jsx` we can now calculate a set of values to be put in a location for re
 ```jsx
 const content = [];
 for (let index = 0; index < count; index++) {
-  content.push(<ul key={index}>{index}</ul>);
+  content.push(<li key={index}>{index}</li>);
 }
 ```
 
-and then we can display this using `<li>{content}</li>`
+and then we can display this using `<ul>{content}</ul>`

@@ -2,7 +2,7 @@
 
 Currently we are using babel at runtime to convert jsx files into files that can be understood by a browser. This won't scale into a production environment so we want to transpile before we send to the browser. To do this we will use babel cli rather than babel runtime scripts.
 
-## Task - Adding the babcel cli and plugins
+## Task - Adding the babel cli and plugins
 
 Install the following tools into your `package.json`:
 
@@ -21,7 +21,7 @@ And then we want to set up babel to use the react present by adding `.babelrc` n
 And now we can run:
 
 ```sh
-npx babel src/*.jsx --out-dir src/  
+npx babel src/*.jsx --out-dir src/
 ```
 
 We now have the transpiled js files in the `src` directory. If you look at them they'll look like the files we wrote back in exercise 1.

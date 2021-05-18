@@ -26,10 +26,7 @@ We know have the ability to transpile jsx files at runtime. In [index.html](./sr
 Rename `App.js` to `App.jsx` and update the return value to:
 
 ```jsx
-return <button onClick={increment}>
-  Interactive, clicks = {count}
-</button>
-);
+return <button onClick={increment}>Interactive, clicks = {count}</button>;
 ```
 
 Do the same to also rename `index.js` to `index.jsx`
